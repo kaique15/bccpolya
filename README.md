@@ -11,6 +11,7 @@
 
 
 -Fluxograma:
+![Fluxograma](/bccpolya/fluxograma.png)
 
 
 Termo "polya" no nome do repositorio: George Polya foi um matematico hungaro e professor de matematica, onde seu lema era "A arte de resolver problemas", o nome polya foi escolhido, pois cada um tem uma forma de resolver problemas,seja usando logicas, como metodos diferentes.
