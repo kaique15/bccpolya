@@ -9,6 +9,46 @@
 
 -Portugues Estruturado:
 
+Algoritmo
+
+var
+   num: Real
+
+funcao raizq (double num)
+var 
+    
+	 x = num / 2, y = 0.0, resto = 0, restoAnterior = -1:Real
+    
+    
+	enquanto (restoAnterior - resto > 0)
+	
+		restoAnterior = resto
+
+		y = num / x;
+		x = (x + y) / 2.0;
+		
+		resto = (float) y - x;
+		se (resto < 0) resto = resto * -1.0 entao 
+		
+fimfuncao		
+
+inicio
+
+	escreval("Escreva o numero: ")
+	leia(&num)
+
+	Se (num < 0) entao
+	
+		escreval("numero invalido")
+		
+	
+
+	escreval("A raiz quadrada de", num  "é", raizq(num))
+	
+fimse
+fimalgoritimo
+
+
 
 -Fluxograma:
 ![Fluxograma](/fluxograma.png)
