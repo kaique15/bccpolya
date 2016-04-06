@@ -34,7 +34,7 @@ int main (){
 		return 0;
 	}
 
-	printf("\nA raiz quadrada de %.2f e %.20lf\n", num, raizq(num));
+	printf("\nA raiz quadrada de %.2f e %.7lf\n", num, raizq(num));
 	
 	return 0;
 }
